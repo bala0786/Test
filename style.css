@@ -34,3 +34,16 @@ main {
     padding: 40px;
     text-align: center;
 }
+.two-columns {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.column {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
